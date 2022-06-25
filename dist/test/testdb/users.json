@@ -1,0 +1,16 @@
+{
+    "schema": {
+        "name": "string",
+        "age": "number"
+    },
+    "data": [
+        {
+            "name": "user",
+            "age": 15
+        },
+        {
+            "name": "another_user",
+            "age": 18
+        }
+    ]
+}

@@ -3,14 +3,14 @@
         "name": "string",
         "age": "number"
     },
-    "data": [
+    "data":[
         {
-            "name": "user",
-            "age": 15
+            "name" :"user",
+            "age":15
         },
         {
-            "name": "another_user",
-            "age": 18
+            "name" :"another_user",
+            "age" :20
         }
     ]
 }

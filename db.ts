@@ -4,7 +4,7 @@ export default class Database {
     #pathToFolder: string
     /**
      * @param {string} pathToFolder Path to folder where the database is stored
-   */
+    */
     constructor(pathToFolder: string) {
         this.#pathToFolder = pathToFolder
         if(!fs.existsSync(this.#pathToFolder)) fs.mkdirSync(this.#pathToFolder)
@@ -13,7 +13,7 @@ export default class Database {
     /**
      * @param {string} collectionName The name of the collection to be created
      * @param {Object} schema The schema of the collection
-   */
+    */
     createCollection(collectionName: string, schema: Object) {
         const filePath = `${this.#pathToFolder}/${collectionName}.json`
         if(!fs.existsSync(filePath)) fs.writeFileSync(filePath, JSON.stringify({"schema": schema}))
@@ -34,7 +34,7 @@ export default class Database {
     /**
      * @param {string} collectionName The name of the collection in which to insert the data
      * @param {Object} data The data to insert
-   */
+    */
     insert(collectionName: string, data: Object) {
         const filePath = `${this.#pathToFolder}/${collectionName}.json`
         if(!fs.existsSync(filePath)) throw new Error('Collection does not exist')
@@ -54,7 +54,7 @@ export default class Database {
      * @param {string} collectionName The name of the collection in which to find and insert the data
      * @param {Object} filter The filter to find the data
      * @param {Object} data The data to insert
-   */
+    */
     findInsert(collectionName: string, filter: Object, data: Object) {
         const filePath = `${this.#pathToFolder}/${collectionName}.json`
         if(!fs.existsSync(filePath)) throw new Error('Collection does not exist')
@@ -80,7 +80,7 @@ export default class Database {
      * @param {string} collectionName The name of the collection in which to find the data
      * @param {Object} filter The filter to find the data
      * @returns true if found filter object in collection, else false
-   */
+    */
     find(collectionName: string, filter: Object) {
         const filePath = `${this.#pathToFolder}/${collectionName}.json`
         if(!fs.existsSync(filePath)) throw new Error('Collection does not exist')

@@ -1,13 +1,12 @@
 {
   "name": "DatabaseApp",
-  "version": "1.0.1",
+  "version": "1.0.1-p1",
   "decription": "A Local JSON-Based Database Application",
   "main": "./dist/test/test.js",
   "author": "AaryanKh",
   "license": "MIT",
   "scripts": {
-    "start": "node .",
-    "dev": "nodemon ."
+    "start": "node ."
   },
   "dependencies": {
     "@types/node": "^18.0.0"

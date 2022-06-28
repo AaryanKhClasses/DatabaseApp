@@ -19,7 +19,7 @@ const fs_1 = __importDefault(require("fs"));
 class Database {
     /**
      * @param {string} pathToFolder Path to folder where the database is stored
-   */
+    */
     constructor(pathToFolder) {
         _Database_pathToFolder.set(this, void 0);
         __classPrivateFieldSet(this, _Database_pathToFolder, pathToFolder, "f");
@@ -29,7 +29,7 @@ class Database {
     /**
      * @param {string} collectionName The name of the collection to be created
      * @param {Object} schema The schema of the collection
-   */
+    */
     createCollection(collectionName, schema) {
         const filePath = `${__classPrivateFieldGet(this, _Database_pathToFolder, "f")}/${collectionName}.json`;
         if (!fs_1.default.existsSync(filePath))
@@ -50,7 +50,7 @@ class Database {
     /**
      * @param {string} collectionName The name of the collection in which to insert the data
      * @param {Object} data The data to insert
-   */
+    */
     insert(collectionName, data) {
         const filePath = `${__classPrivateFieldGet(this, _Database_pathToFolder, "f")}/${collectionName}.json`;
         if (!fs_1.default.existsSync(filePath))
@@ -73,7 +73,7 @@ class Database {
      * @param {string} collectionName The name of the collection in which to find and insert the data
      * @param {Object} filter The filter to find the data
      * @param {Object} data The data to insert
-   */
+    */
     findInsert(collectionName, filter, data) {
         const filePath = `${__classPrivateFieldGet(this, _Database_pathToFolder, "f")}/${collectionName}.json`;
         if (!fs_1.default.existsSync(filePath))
@@ -103,7 +103,7 @@ class Database {
      * @param {string} collectionName The name of the collection in which to find the data
      * @param {Object} filter The filter to find the data
      * @returns true if found filter object in collection, else false
-   */
+    */
     find(collectionName, filter) {
         const filePath = `${__classPrivateFieldGet(this, _Database_pathToFolder, "f")}/${collectionName}.json`;
         if (!fs_1.default.existsSync(filePath))

@@ -23,11 +23,11 @@
 ## Installation
 ### To install the package and create a database, run:
 ```sh
-$npm install dbapp
+$npm install @aaryankh/dbapp
 ```
 ### After installing, import the package into your project:
 ```ts
-import Database from 'dbapp'
+import Database from '@aaryankh/dbapp'
 ```
 
 ---
@@ -36,7 +36,7 @@ import Database from 'dbapp'
 ### The package provides many useful functions to work with local JSON-based databases.
 ### To get started, create a new instance of the database app:
 ```ts
-import Database from 'dbapp'
+import Database from '@aaryankh/dbapp'
 import path from 'path'
 
 const db = new Database(path.join(__dirname, 'path-to-db-folder'))

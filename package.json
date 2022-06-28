@@ -1,6 +1,6 @@
 {
-  "name": "DatabaseApp",
-  "version": "1.0.2",
+  "name": "@aaryankh/dbapp",
+  "version": "1.0.2-p1",
   "decription": "A Local JSON-Based Database Application",
   "main": "./dist/test/test.js",
   "author": "AaryanKh",

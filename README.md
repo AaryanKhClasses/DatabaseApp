@@ -4,19 +4,19 @@
 ---
 
 ## Contents
-- ### [Installation](#Installation)
-- ### [Getting Started](#Getting-Started)
-- ### [Creating a Collection](#Creating-a-Collection)
-- ### [Inserting Data into Collection](#Inserting-Data-into-Collection)
-- ### [Finding Data in a Collection](#Finding-Data-in-a-Collection)
-- ### [Fetching / Getting Data from a Collection](#Fetching-/-Getting-Data-from-a-Collection)
-- ### [Find & Insert Data in a Collection](#Find-&-Insert-Data-in-a-Collection)
-- ### [Find & Update Data in a Collection](#Find-&-Update-Data-in-a-Collection)
-- ### [Find & Delete Data in a Collection](#Find-&-Delete-Data-in-a-Collection)
-- ### [Deleting a Collection](#Deleting-a-Collection)
-- ### [Clearing Data in a Collection](#Clearing-Data-in-a-Collection)
-- ### [Future Features Plans](#Future-Features-Plans)
-- ### [Credits](#Credits)
+- ### [Installation](#installation)
+- ### [Getting Started](#getting-started)
+- ### [Creating a Collection](#creating-a-collection)
+- ### [Inserting Data into Collection](#inserting-data-into-collection)
+- ### [Finding Data in a Collection](#finding-data-in-a-collection)
+- ### [Fetching / Getting Data from a Collection](#fetching--getting-data-from-a-collection)
+- ### [Find & Insert Data in a Collection](#find--insert-data-in-a-collection)
+- ### [Find & Update Data in a Collection](#find--update-data-in-a-collection)
+- ### [Find & Delete Data in a Collection](#find--delete-data-in-a-collection)
+- ### [Deleting a Collection](#deleting-a-collection)
+- ### [Clearing Data in a Collection](#clearing-data-in-a-collection)
+- ### [Future Features Plans](#future-features-plans)
+- ### [Credits](#credits)
 
 ---
 
